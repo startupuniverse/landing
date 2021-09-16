@@ -103,9 +103,12 @@ let locY;
 let rotateTheY, rotateTheX;
 let mouseIsDown = false;
 let theta = 10;
-let earthR = 140;
-let sketchWidth = 400;
-let sketchHeight = 400;
+let canvasWrapperWidth = document.getElementById("canvas-wrapper").offsetWidth;
+let earthR = canvasWrapperWidth/3;
+let sketchWidth = canvasWrapperWidth;
+let sketchHeight = sketchWidth;
+
+console.log(sketchWidth, sketchHeight)
 
 function setup() {
 	img = loadImage('https://greekstartupuniverse.org/content/img/landing_world.gif');
