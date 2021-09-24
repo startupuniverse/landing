@@ -54,7 +54,7 @@
 /*--- About section ---*/
 
 #section-about {
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .table-text {
@@ -89,6 +89,10 @@ hr {
 .speakers-wrapper {
     padding-right: 45px;
     padding-left: 15px;
+}
+
+.card {
+    background: transparent!important;
 }
 
 @media (max-width: 768px) {
